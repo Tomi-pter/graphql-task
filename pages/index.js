@@ -33,7 +33,7 @@ export default function Home({ data }) {
                   <span key={uuidv4()}>{(index ? ", " : "") + city.name}</span>
                 ))
               ) : (
-                <p>Remote</p>
+                <p className="remote">Remote</p>
               )}
             </div>
           </div>
